@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Geo</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="main__block">
+            <div class="main__title">Получить местоположение</div>
+            <div class="alert">Для использования сервиса отключите расширение addBlock, так как он блокирует часть функционала</div>
+            <div class="latitude">Введи широту в десятичных градусах:</div>
+            <input class="latitude__input" type="number">
+            <div class="longitude">Введи долготу в десятичных градусах:</div>
+            <input class="longitude__input" type="number">
+            <button type="button" class="getGeoButton">Получить результат</button>
+            <p class="answer"></p>
+            <div class="otherInfo">
+                <p>Получить детальную информацию</p>
+            </div>
+            <div class="countryInfoBlock"></div>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
